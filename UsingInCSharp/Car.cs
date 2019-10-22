@@ -11,6 +11,7 @@ namespace UsingInCSharp
         public void Dispose()
         {
             Console.WriteLine("Disposing");
+            this.Name = null;
         }
     }
 }
